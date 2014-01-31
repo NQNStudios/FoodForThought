@@ -1,0 +1,153 @@
+﻿Build started 1/30/2014 7:44:50 PM.
+     1>Project "C:\Users\Nathaniel\Desktop\FoodForThought\FoodForThought\FoodForThought\FoodForThought.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Nathaniel\Desktop\FoodForThought\FoodForThought\FoodForThought\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FFT.cpp Game.cpp Graphics.cpp main.cpp
+         main.cpp
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.h(17): error C2061: syntax error : identifier 'Graphics'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\fft.h(11): error C2061: syntax error : identifier 'Graphics'
+         Graphics.cpp
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(145): error C2371: 'Uint32' : redefinition; different basic types
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(167): error C2027: use of undefined type 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(167): error C2118: negative subscript
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(272): error C2079: '_val' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(277): error C2036: 'Uint32 *' : unknown size
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(277): error C2582: 'operator =' function is unavailable in 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(278): error C2036: 'Uint32 *' : unknown size
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(278): error C2582: 'operator =' function is unavailable in 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(279): error C2036: 'Uint32 *' : unknown size
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(279): error C2582: 'operator =' function is unavailable in 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(280): error C2036: 'Uint32 *' : unknown size
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_stdinc.h(280): error C2582: 'operator =' function is unavailable in 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(142): error C2526: 'SDL_Swap32' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(144): error C2676: binary '<<' : 'Uint32' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(144): error C2088: '<<' : illegal for struct
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(144): error C2676: binary '>>' : 'Uint32' does not define this operator or a conversion to a type acceptable to the predefined operator
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(144): error C2088: '>>' : illegal for struct
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(177): error C2079: 'hi' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(177): error C2079: 'lo' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(180): error C2440: 'static_cast' : cannot convert from 'Uint64' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(182): error C2440: 'static_cast' : cannot convert from 'Uint64' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(183): error C2664: 'SDL_Swap32' : cannot convert parameter 1 from 'int' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(185): error C2664: 'SDL_Swap32' : cannot convert parameter 1 from 'int' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(197): error C2079: 'SDL_SwapFloat::<unnamed-tag>::ui32' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_endian.h(200): error C2664: 'SDL_Swap32' : cannot convert parameter 1 from 'int' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_mutex.h(155): error C2526: 'SDL_SemValue' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_rwops.h(93): error C2079: 'SDL_RWops::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_rwops.h(202): error C2526: 'SDL_ReadLE32' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_rwops.h(203): error C2526: 'SDL_ReadBE32' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_audio.h(173): error C2079: 'SDL_AudioSpec::size' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_audio.h(353): error C2526: 'SDL_OpenAudioDevice' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(241): error C2440: 'static_cast' : cannot convert from 'Uint8' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(241): error C2056: illegal expression
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(243): error C2440: 'static_cast' : cannot convert from 'Uint8' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(243): error C2056: illegal expression
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(245): error C2440: 'static_cast' : cannot convert from 'Uint8' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(245): error C2056: illegal expression
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(247): error C2440: 'static_cast' : cannot convert from 'Uint8' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(247): error C2056: illegal expression
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(249): error C2440: 'static_cast' : cannot convert from 'Uint8' to 'Uint32'
+                 Source or target has incomplete type
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(250): error C2056: illegal expression
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(265): error C2079: 'SDL_Palette::version' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(274): error C2079: 'SDL_PixelFormat::format' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(279): error C2079: 'SDL_PixelFormat::Rmask' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(280): error C2079: 'SDL_PixelFormat::Gmask' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(281): error C2079: 'SDL_PixelFormat::Bmask' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(282): error C2079: 'SDL_PixelFormat::Amask' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(326): error C2526: 'SDL_MasksToPixelFormatEnum' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(383): error C2526: 'SDL_MapRGB' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_pixels.h(392): error C2526: 'SDL_MapRGBA' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_surface.h(71): error C2079: 'SDL_Surface::flags' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_video.h(55): error C2079: '<unnamed-tag>::format' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_video.h(385): error C2526: 'SDL_GetWindowPixelFormat' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_video.h(426): error C2526: 'SDL_GetWindowID' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_video.h(436): error C2526: 'SDL_GetWindowFlags' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_keyboard.h(52): error C2079: 'SDL_Keysym::unused' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_mouse.h(78): error C2526: 'SDL_GetMouseState' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_mouse.h(87): error C2526: 'SDL_GetRelativeMouseState' : C linkage function cannot return C++ class 'Uint32'
+                 c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\graphics.h(9) : see declaration of 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(153): error C2079: 'SDL_CommonEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(154): error C2079: 'SDL_CommonEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(162): error C2079: 'SDL_WindowEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(163): error C2079: 'SDL_WindowEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(164): error C2079: 'SDL_WindowEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(178): error C2079: 'SDL_KeyboardEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(179): error C2079: 'SDL_KeyboardEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(180): error C2079: 'SDL_KeyboardEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(194): error C2079: 'SDL_TextEditingEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(195): error C2079: 'SDL_TextEditingEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(196): error C2079: 'SDL_TextEditingEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(209): error C2079: 'SDL_TextInputEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(210): error C2079: 'SDL_TextInputEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(211): error C2079: 'SDL_TextInputEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(220): error C2079: 'SDL_MouseMotionEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(221): error C2079: 'SDL_MouseMotionEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(222): error C2079: 'SDL_MouseMotionEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(223): error C2079: 'SDL_MouseMotionEvent::which' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(224): error C2079: 'SDL_MouseMotionEvent::state' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(236): error C2079: 'SDL_MouseButtonEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(237): error C2079: 'SDL_MouseButtonEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(238): error C2079: 'SDL_MouseButtonEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(239): error C2079: 'SDL_MouseButtonEvent::which' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(253): error C2079: 'SDL_MouseWheelEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(254): error C2079: 'SDL_MouseWheelEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(255): error C2079: 'SDL_MouseWheelEvent::windowID' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(256): error C2079: 'SDL_MouseWheelEvent::which' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(266): error C2079: 'SDL_JoyAxisEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(267): error C2079: 'SDL_JoyAxisEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(282): error C2079: 'SDL_JoyBallEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(283): error C2079: 'SDL_JoyBallEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(298): error C2079: 'SDL_JoyHatEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(299): error C2079: 'SDL_JoyHatEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(318): error C2079: 'SDL_JoyButtonEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(319): error C2079: 'SDL_JoyButtonEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(332): error C2079: 'SDL_JoyDeviceEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(333): error C2079: 'SDL_JoyDeviceEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(343): error C2079: 'SDL_ControllerAxisEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(344): error C2079: 'SDL_ControllerAxisEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(360): error C2079: 'SDL_ControllerButtonEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(361): error C2079: 'SDL_ControllerButtonEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(375): error C2079: 'SDL_ControllerDeviceEvent::type' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(376): error C2079: 'SDL_ControllerDeviceEvent::timestamp' uses undefined struct 'Uint32'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\include\sdl_events.h(376): fatal error C1003: error count exceeds 100; stopping compilation
+         Game.cpp
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.h(17): error C2061: syntax error : identifier 'Graphics'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.cpp(23): error C2065: 'Graphics' : undeclared identifier
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.cpp(23): error C2146: syntax error : missing ';' before identifier 'graphics'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.cpp(23): error C2065: 'graphics' : undeclared identifier
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.cpp(50): error C2065: 'graphics' : undeclared identifier
+         FFT.cpp
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\game.h(17): error C2061: syntax error : identifier 'Graphics'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\fft.h(11): error C2061: syntax error : identifier 'Graphics'
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\fft.cpp(18): error C2065: 'Graphics' : undeclared identifier
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\fft.cpp(18): error C2065: 'graphics' : undeclared identifier
+     1>c:\users\nathaniel\desktop\foodforthought\foodforthought\foodforthought\fft.cpp(19): error C2448: 'FFT::VDraw' : function-style initializer appears to be a function definition
+         Generating Code...
+     1>Done Building Project "C:\Users\Nathaniel\Desktop\FoodForThought\FoodForThought\FoodForThought\FoodForThought.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.55
